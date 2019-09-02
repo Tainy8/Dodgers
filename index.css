@@ -1,0 +1,52 @@
+#floor{
+    height: 6px;
+    width: 800px;
+    background-color: black;
+    top: 600px;
+    left: 480px;
+    position: absolute;
+}
+.player{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+#player1{
+    top: 570px;
+    left: 750px;
+    background-color: navy;
+}
+.fiends{
+    height: 30px;
+    width: 8px;
+    position: absolute;
+    background-color: red;
+}
+
+.border{
+    height: 30px;
+    width: 6px;
+    background-color: red;
+    position: absolute;
+}
+#left-border{
+    top:570px;
+    left:480px;
+}
+#right-border{
+    top:570px;
+    left:1274px;
+}
+body{
+    background-color: cyan;
+}
+#score{
+    font-size: 40px;
+    left : 130px;
+    top: 10px;
+    position: absolute;
+}
+#scoretxt{
+    font-size: 40px;
+    position: absolute;
+}
